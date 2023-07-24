@@ -1,0 +1,25 @@
+.name{
+    color: palevioletred;
+}
+.half{
+    width: 40%;
+    float: left;
+}
+.half img{
+    width: 100%;
+}
+.top{
+    padding-left: 5%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightblue,blue);
+    font-weight: 700px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    
+}
