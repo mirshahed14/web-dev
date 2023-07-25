@@ -39,9 +39,29 @@ background-repeat: no-repeat;
 }
 .bottom img{
     width: 20%;
-    align-items: center;
-    padding-left: 10%;
+    padding-left: 10%;   
 }
 .bottom{
     background-image: url(Resource/bottom.png);
+}
+.last{
+    text-align: center;
+    background-image: url("Resource/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pink{
+    width: 20%;
+    border: 1px solid  deeppink;
+    border-radius: 5px;
+    background-color: deeppink;
+    margin-left: 36%;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer{
+    text-align: center;
+    font-size: 8%;
+    margin-top: 15px;
 }
