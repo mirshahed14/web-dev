@@ -4,15 +4,22 @@
 .half{
     width: 40%;
     float: left;
+    padding-left: 40px;
+    margin-left: 20px;
 }
 .half img{
     width: 100%;
 }
 .top{
-    padding-left: 5%;
+    height: 500px;
+    background-image: url("Resource/top.png");
+    background-repeat: no-repeat;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url("Resource/top2.png");
+    background-repeat: no-repeat;
 }
 .button{
     text-decoration: none;
@@ -21,5 +28,20 @@ body{
     border-radius: 5px;
     color: white;
     padding: 5px 10px;
-    
+}
+.middle{
+   height: 500px;
+background-image: url(Resource/back2.png);
+background-repeat: no-repeat;
+}
+.caption{
+    text-align: center;
+}
+.bottom img{
+    width: 20%;
+    align-items: center;
+    padding-left: 10%;
+}
+.bottom{
+    background-image: url(Resource/bottom.png);
 }
